@@ -5,6 +5,8 @@
 }: {
   users.groups.ssh-access = {};
 
+  users.mutableUsers = false;
+
   users.users."gustav" = {
     isNormalUser = true;
     initialPassword = "1234";
