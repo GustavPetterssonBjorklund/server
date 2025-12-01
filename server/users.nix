@@ -3,6 +3,8 @@
   pkgs,
   ...
 }: {
+  users.groups.ssh-access = {};
+
   users.users."gustav" = {
     isNormalUser = true;
     initialPassword = "1234";
