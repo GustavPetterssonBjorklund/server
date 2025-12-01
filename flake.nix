@@ -28,7 +28,7 @@
       specialArgs = {inherit inputs;};
 
       modules = [
-        disko.nixosModule.disko
+        disko.nixosModules.disko
         ./server/configuration.nix
       ];
     };
