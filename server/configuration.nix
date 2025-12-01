@@ -4,7 +4,7 @@
   ...
 }: {
   imports = [
-    ./disco-config.nix
+    ./disko-config.nix
     ./hardware-configuration.nix
     ./bootloader.nix
     ./programs.nix
