@@ -24,8 +24,8 @@
       specialArgs = {inherit inputs;};
 
       modules = [
-        ./skoldator/configuration.nix
-        ];
+        ./server/configuration.nix
+      ];
     };
   };
 }
