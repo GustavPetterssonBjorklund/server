@@ -4,10 +4,9 @@
   ...
 }: {
   users.groups.ssh-access = {};
-
   users.mutableUsers = false;
 
-  users.users."gustav" = {
+  users.users."main" = {
     isNormalUser = true;
     initialPassword = "1234";
     extraGroups = ["wheel" "ssh-access"];
